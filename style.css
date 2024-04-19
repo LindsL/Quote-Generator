@@ -1,0 +1,80 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: rgb(54,62,70); 
+    color: white;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.container{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    text-align: center; 
+    padding: 30px; 
+    width: 30rem; 
+    margin: 10rem;
+    border-radius: 10px; 
+    background: #262626; 
+}
+#quote{
+    height: 5rem;
+    font-size: xx-large;
+    line-height: 1;
+    margin-top: 40px; 
+    font-family: "Fasthand", cursive;
+}
+#quote-french{
+    height: 2rem;
+    margin-top: 10px;
+    padding: 0 4em;
+    font-size: 15px;
+    font-weight: 200; 
+    color: deepskyblue;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+#author{
+    padding: 10px 2em;
+}
+.generate-btn{
+    width: 50px; 
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50%; 
+    border: none; 
+    background-color: deepskyblue;
+    cursor: pointer;
+    font-size: 18px; 
+    transition:  .5s ease;
+}
+.generate-btn:hover{
+    background: #2b5ccd;
+    color: #FFF;
+}
+
+
+footer{
+    background:rgb(26, 30, 34); 
+    padding:3em; 
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%;
+    display: grid; 
+    place-items:center;  
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 100;
+}
